@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36B55ED6426AEFE5E0C60000 /* Pods_HPExam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B54344F9F674F1C175E7E3 /* Pods_HPExam.framework */; };
+		D2005B371FD735BC00347703 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2005B361FD735BC00347703 /* LoginViewController.swift */; };
+		D2005B391FD740B500347703 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2005B381FD740B500347703 /* RegisterViewController.swift */; };
+		D2413AB21FD5A22800E71871 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2413AB11FD5A22800E71871 /* Register.storyboard */; };
+		D25CC3E81FD927AB00471C68 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25CC3E71FD927AB00471C68 /* Home.storyboard */; };
+		D25CC3EA1FD93B2800471C68 /* HPConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25CC3E91FD93B2800471C68 /* HPConst.swift */; };
+		D27C270E1FDF012E0042D2C6 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27C270D1FDF012E0042D2C6 /* UserViewController.swift */; };
+		D27C27101FDF01570042D2C6 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27C270F1FDF01570042D2C6 /* PersonViewController.swift */; };
+		D27C27121FDF016A0042D2C6 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27C27111FDF016A0042D2C6 /* AnswerViewController.swift */; };
+		D27C27141FDF01AB0042D2C6 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27C27131FDF01AB0042D2C6 /* FeedbackViewController.swift */; };
+		D2A858FE1FDC684C005784BA /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A858FD1FDC684C005784BA /* HomeTableViewCell.swift */; };
+		D2BC8DA31FDA2F46004D6A7B /* t.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC8DA21FDA2F46004D6A7B /* t.m */; };
+		D2BCCDDC1FD7C92D00948C91 /* HPNetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BCCDDB1FD7C92D00948C91 /* HPNetworkTools.swift */; };
+		D2BCCDDF1FD7CA7900948C91 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BCCDDE1FD7CA7900948C91 /* UserInfo.swift */; };
+		D2C262491FD473A90074035B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C262481FD473A90074035B /* AppDelegate.swift */; };
+		D2C262501FD473A90074035B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C2624F1FD473A90074035B /* Assets.xcassets */; };
+		D2C262531FD473A90074035B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C262511FD473A90074035B /* LaunchScreen.storyboard */; };
+		D2C2625F1FD4748F0074035B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C2625E1FD4748F0074035B /* Login.storyboard */; };
+		D2D6DF0F1FDA8CBF0085B187 /* SliderGalleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D6DF0E1FDA8CBF0085B187 /* SliderGalleryController.swift */; };
+		D2D6DF111FDA8D780085B187 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D6DF101FDA8D780085B187 /* ImageHelper.swift */; };
+		D2D6DF131FDA8DA50085B187 /* ImageVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D6DF121FDA8DA50085B187 /* ImageVIewExtension.swift */; };
+		D2D6DF151FDA8DF90085B187 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D6DF141FDA8DF90085B187 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6FE74D45FD2DA6CF0BB44CA0 /* Pods-HPExam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPExam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPExam/Pods-HPExam.debug.xcconfig"; sourceTree = "<group>"; };
+		95B54344F9F674F1C175E7E3 /* Pods_HPExam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPExam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2005B361FD735BC00347703 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D2005B381FD740B500347703 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D2413AB11FD5A22800E71871 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		D25CC3E71FD927AB00471C68 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		D25CC3E91FD93B2800471C68 /* HPConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPConst.swift; sourceTree = "<group>"; };
+		D27C270D1FDF012E0042D2C6 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		D27C270F1FDF01570042D2C6 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		D27C27111FDF016A0042D2C6 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		D27C27131FDF01AB0042D2C6 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		D2A858FD1FDC684C005784BA /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		D2BC8DA11FDA2F46004D6A7B /* HPExam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPExam-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2BC8DA21FDA2F46004D6A7B /* t.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = t.m; sourceTree = "<group>"; };
+		D2BCCDDB1FD7C92D00948C91 /* HPNetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPNetworkTools.swift; sourceTree = "<group>"; };
+		D2BCCDDE1FD7CA7900948C91 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		D2C262451FD473A90074035B /* HPExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C262481FD473A90074035B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2C2624F1FD473A90074035B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2C262521FD473A90074035B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2C262541FD473A90074035B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C2625E1FD4748F0074035B /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D2D6DF0E1FDA8CBF0085B187 /* SliderGalleryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderGalleryController.swift; sourceTree = "<group>"; };
+		D2D6DF101FDA8D780085B187 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		D2D6DF121FDA8DA50085B187 /* ImageVIewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVIewExtension.swift; sourceTree = "<group>"; };
+		D2D6DF141FDA8DF90085B187 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EE3E6A693053904CCB6C9812 /* Pods-HPExam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPExam.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPExam/Pods-HPExam.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2C262421FD473A90074035B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B55ED6426AEFE5E0C60000 /* Pods_HPExam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038B8B007F5FE3B0E3359EBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FE74D45FD2DA6CF0BB44CA0 /* Pods-HPExam.debug.xcconfig */,
+				EE3E6A693053904CCB6C9812 /* Pods-HPExam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		161D8896AD111A497407DCFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95B54344F9F674F1C175E7E3 /* Pods_HPExam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2413AB01FD5A19F00E71871 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				D2BC8DA61FDA3366004D6A7B /* Model */,
+				D2BC8DA51FDA3350004D6A7B /* Controller */,
+				D2BC8DA41FDA3342004D6A7B /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		D25CC3E61FD9272B00471C68 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D2BC8DA91FDA338C004D6A7B /* Controller */,
+				D2BC8DA81FDA3383004D6A7B /* Model */,
+				D2BC8DA71FDA3378004D6A7B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D2BC8DA41FDA3342004D6A7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2413AB11FD5A22800E71871 /* Register.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2BC8DA51FDA3350004D6A7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2005B381FD740B500347703 /* RegisterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D2BC8DA61FDA3366004D6A7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2BC8DA71FDA3378004D6A7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D25CC3E71FD927AB00471C68 /* Home.storyboard */,
+				D2A858FD1FDC684C005784BA /* HomeTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2BC8DA81FDA3383004D6A7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2BC8DA91FDA338C004D6A7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2D6DF141FDA8DF90085B187 /* HomeViewController.swift */,
+				D27C270D1FDF012E0042D2C6 /* UserViewController.swift */,
+				D27C270F1FDF01570042D2C6 /* PersonViewController.swift */,
+				D27C27111FDF016A0042D2C6 /* AnswerViewController.swift */,
+				D27C27131FDF01AB0042D2C6 /* FeedbackViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D2BCCDD71FD7C89100948C91 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D2BCCDD81FD7C89D00948C91 /* Tools */,
+				D25CC3E91FD93B2800471C68 /* HPConst.swift */,
+				D2D6DF0E1FDA8CBF0085B187 /* SliderGalleryController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D2BCCDD81FD7C89D00948C91 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D2BCCDDB1FD7C92D00948C91 /* HPNetworkTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D2C2623C1FD473A90074035B = {
+			isa = PBXGroup;
+			children = (
+				D2C262471FD473A90074035B /* HPExam */,
+				D2C262461FD473A90074035B /* Products */,
+				038B8B007F5FE3B0E3359EBF /* Pods */,
+				161D8896AD111A497407DCFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2C262461FD473A90074035B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2C262451FD473A90074035B /* HPExam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2C262471FD473A90074035B /* HPExam */ = {
+			isa = PBXGroup;
+			children = (
+				D25CC3E61FD9272B00471C68 /* Home */,
+				D2BCCDD71FD7C89100948C91 /* Main */,
+				D2413AB01FD5A19F00E71871 /* Register */,
+				D2C2625A1FD473DC0074035B /* Login */,
+				D2C262481FD473A90074035B /* AppDelegate.swift */,
+				D2C2624F1FD473A90074035B /* Assets.xcassets */,
+				D2C262511FD473A90074035B /* LaunchScreen.storyboard */,
+				D2C262541FD473A90074035B /* Info.plist */,
+				D2BC8DA21FDA2F46004D6A7B /* t.m */,
+				D2BC8DA11FDA2F46004D6A7B /* HPExam-Bridging-Header.h */,
+				D2D6DF101FDA8D780085B187 /* ImageHelper.swift */,
+				D2D6DF121FDA8DA50085B187 /* ImageVIewExtension.swift */,
+			);
+			path = HPExam;
+			sourceTree = "<group>";
+		};
+		D2C2625A1FD473DC0074035B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D2C2625D1FD4746C0074035B /* Model */,
+				D2C2625C1FD4745B0074035B /* View */,
+				D2C2625B1FD4744B0074035B /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D2C2625B1FD4744B0074035B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2005B361FD735BC00347703 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D2C2625C1FD4745B0074035B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2C2625E1FD4748F0074035B /* Login.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2C2625D1FD4746C0074035B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2BCCDDE1FD7CA7900948C91 /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2C262441FD473A90074035B /* HPExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C262571FD473A90074035B /* Build configuration list for PBXNativeTarget "HPExam" */;
+			buildPhases = (
+				58A6C6B71CFF113C88F36D79 /* [CP] Check Pods Manifest.lock */,
+				D2C262411FD473A90074035B /* Sources */,
+				D2C262421FD473A90074035B /* Frameworks */,
+				D2C262431FD473A90074035B /* Resources */,
+				1A549C2DA68925B299D31F28 /* [CP] Embed Pods Frameworks */,
+				3E0236A5AFD03630DB2736B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPExam;
+			productName = HPExam;
+			productReference = D2C262451FD473A90074035B /* HPExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2C2623D1FD473A90074035B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = yafeng;
+				TargetAttributes = {
+					D2C262441FD473A90074035B = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2C262401FD473A90074035B /* Build configuration list for PBXProject "HPExam" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2C2623C1FD473A90074035B;
+			productRefGroup = D2C262461FD473A90074035B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2C262441FD473A90074035B /* HPExam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2C262431FD473A90074035B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C262531FD473A90074035B /* LaunchScreen.storyboard in Resources */,
+				D25CC3E81FD927AB00471C68 /* Home.storyboard in Resources */,
+				D2413AB21FD5A22800E71871 /* Register.storyboard in Resources */,
+				D2C2625F1FD4748F0074035B /* Login.storyboard in Resources */,
+				D2C262501FD473A90074035B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A549C2DA68925B299D31F28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HPExam/Pods-HPExam-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPExam/Pods-HPExam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E0236A5AFD03630DB2736B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPExam/Pods-HPExam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58A6C6B71CFF113C88F36D79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HPExam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2C262411FD473A90074035B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D6DF131FDA8DA50085B187 /* ImageVIewExtension.swift in Sources */,
+				D2005B391FD740B500347703 /* RegisterViewController.swift in Sources */,
+				D27C270E1FDF012E0042D2C6 /* UserViewController.swift in Sources */,
+				D2A858FE1FDC684C005784BA /* HomeTableViewCell.swift in Sources */,
+				D25CC3EA1FD93B2800471C68 /* HPConst.swift in Sources */,
+				D2D6DF111FDA8D780085B187 /* ImageHelper.swift in Sources */,
+				D2005B371FD735BC00347703 /* LoginViewController.swift in Sources */,
+				D2BCCDDC1FD7C92D00948C91 /* HPNetworkTools.swift in Sources */,
+				D2BC8DA31FDA2F46004D6A7B /* t.m in Sources */,
+				D2D6DF151FDA8DF90085B187 /* HomeViewController.swift in Sources */,
+				D2BCCDDF1FD7CA7900948C91 /* UserInfo.swift in Sources */,
+				D27C27141FDF01AB0042D2C6 /* FeedbackViewController.swift in Sources */,
+				D2C262491FD473A90074035B /* AppDelegate.swift in Sources */,
+				D27C27121FDF016A0042D2C6 /* AnswerViewController.swift in Sources */,
+				D2D6DF0F1FDA8CBF0085B187 /* SliderGalleryController.swift in Sources */,
+				D27C27101FDF01570042D2C6 /* PersonViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2C262511FD473A90074035B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C262521FD473A90074035B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2C262551FD473A90074035B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2C262561FD473A90074035B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2C262581FD473A90074035B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE74D45FD2DA6CF0BB44CA0 /* Pods-HPExam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6SYB9Q2SN;
+				INFOPLIST_FILE = HPExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yafeng.HPExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HPExam/HPExam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2C262591FD473A90074035B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3E6A693053904CCB6C9812 /* Pods-HPExam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6SYB9Q2SN;
+				INFOPLIST_FILE = HPExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yafeng.HPExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HPExam/HPExam-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2C262401FD473A90074035B /* Build configuration list for PBXProject "HPExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C262551FD473A90074035B /* Debug */,
+				D2C262561FD473A90074035B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C262571FD473A90074035B /* Build configuration list for PBXNativeTarget "HPExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C262581FD473A90074035B /* Debug */,
+				D2C262591FD473A90074035B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2C2623D1FD473A90074035B /* Project object */;
+}
